@@ -10,12 +10,6 @@ __pycache__/
 venv/  
 .env/  
 
-# Ignore all files in the data folder
-data/*  
-
-# But keep specific files
-!data/MentalHealthSurvey.csv  
-
 # Ignore large files over 100MB (GitHub rejects files >100MB)  
 *.h5  
 *.pkl  
