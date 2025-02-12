@@ -10,12 +10,11 @@ __pycache__/
 venv/  
 .env/  
 
-# Ignore data files (optional – if you don’t want to push datasets)  
-*.csv  
-*.tsv  
-*.json  
-*.xlsx  
-*.parquet  
+# Ignore all files in the data folder
+data/*  
+
+# But keep specific files
+!data/MentalHealthSurvey.csv  
 
 # Ignore large files over 100MB (GitHub rejects files >100MB)  
 *.h5  
